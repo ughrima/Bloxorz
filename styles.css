@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure full viewport height */
+  margin: 0; /* Remove default body margin */
+  background-image: url(assets/bg-2.png);
+  background-size: cover;
+}
+
+#game-board {
+  position: relative;
+  width: 400px; /* Adjust as needed */
+  height: 360px; /* Adjust as needed */
+ /* Background color of the game board */
+  transform: perspective(500px) rotateX(45deg);
+  display: grid;
+  grid-template-columns: repeat(8, 50px); /* Adjust as needed */
+  grid-template-rows: repeat(6, 60px); /* Adjust as needed */
+  }
+  
+  .tile {
+    width: 50px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    background-color: #ddd; /* Default color of tiles */
+    /* border: 1px solid #000;  */
+  }
+  
+  .movable-tile {
+    /* background-color: #fff;  */
+    background-image: url(assets/tile.jpg);
+    border: 0.5px solid #8d8d8d; 
+  }
+  
+  .hole-tile {
+    background-image: url(assets/hole.png);
+    background-size: cover;
+  }
+  
+  .death-tile {
+    /* background-image: url(assets/bg-2.png);
+    background-size: 2000%; */
+    background-color: transparent; 
+
+  }
+  
+
+#block {
+    width: 50px; /* Match the width of the tiles */
+    height: 60px; /* Match the height of the tiles */
+    background-image: url(assets/block.png);
+    background-size: 300%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: center; /* Set the transformation origin to the center */
+  }
+  
