@@ -1,5 +1,8 @@
 # Bloxorz
 
+![Game Screenshot](assets/home-page.png)
+
+
 ### Description
 Bloxorz is a classic puzzle game. In this game, players control a rectangular block, navigating it through a series of tiles with the goal of reaching the destination tile. Along the way, they must avoid falling off the edges and strategically maneuver around obstacles to progress to the next level.
 
