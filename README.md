@@ -33,3 +33,8 @@ The Project blends elements of the iconic Snake game with the mechanics of the o
 ![Static Badge](https://img.shields.io/badge/HTML-101010?logo=html5&logoColor=%23E34F26) 
 ![Static Badge](https://img.shields.io/badge/CSS-101010?logo=html5&logoColor=%23E34F26) 
 ![Static Badge](https://img.shields.io/badge/Javascript-101010?logo=html5&logoColor=%23E34F26) 
+
+
+## Deployed Link
+ https://bloxorzgame.netlify.app/
+
